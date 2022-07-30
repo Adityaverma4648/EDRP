@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loginPage {
+  background: linear-gradient(to right, rgba(0, 255, 255, 0.5), rgba(0, 8, 255, 0.7));
+  min-width: 35vw;
+  min-height: 45vh;
+  position: relative;
+  padding: 1rem 2rem;
+}
+#loginPage form {
+  width: 100%;
+}
+#loginPage form .contFormElem {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#loginPage form .contFormElem #submitBtn {
+  margin: 1rem 0px;
+  padding: 10px 0px;
+}
+#loginPage form .contFormElem #OtherLoginMethods {
+  width: 90%;
+}
+#loginPage form .contFormElem #OtherLoginMethods div {
+  width: 50%;
+}
+#loginPage form label, #loginPage form input {
+  width: 90%;
+}/*# sourceMappingURL=style.css.map */

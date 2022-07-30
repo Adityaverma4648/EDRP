@@ -9,9 +9,20 @@
 body {
   min-height: 100vh;
   min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #loginPage {
-  min-width: 35vw;
-  min-height: 45vh;
+  background: linear-gradient(to right, rgba(0, 255, 255, 0.5), rgba(0, 8, 255, 0.7));
+  max-width: 35vw;
+  max-height: 45vh;
+  position: relative;
+}
+#loginPage form {
+  width: 100%;
+}
+#loginPage form input {
+  width: 90%;
 }/*# sourceMappingURL=styles.css.map */
