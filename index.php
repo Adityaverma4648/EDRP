@@ -26,10 +26,13 @@
      <script src="https://kit.fontawesome.com/8dc03a4776.js" crossorigin="anonymous"></script>
      <!-- ends here -->
 
-     
-
 <body>
         
+
+<section id="loginPage" class="bg-dark">
+    
+          <form action=""></form>
+</section>
 
 </body>
 </html>
