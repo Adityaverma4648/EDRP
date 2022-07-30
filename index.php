@@ -26,12 +26,14 @@
      <script src="https://kit.fontawesome.com/8dc03a4776.js" crossorigin="anonymous"></script>
      <!-- ends here -->
 
-<body>
-        
-
-<section id="loginPage" class="bg-dark">
-    
-          <form action=""></form>
+<body class="bg-dark d-flex justify-content-center align-items-center">
+<section id="loginPage">
+          <form action="" class="was-validated d-flex flex-column" id="form">
+                 <label for="userName" class="text-black">
+                    Enter the UserName : 
+                 </label>
+                 <input type="text" name="UserName" id="UserName" class="border-0">
+          </form>
 </section>
 
 </body>
