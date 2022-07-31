@@ -9,38 +9,86 @@
 body {
   min-height: 100vh;
   min-width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: #FC466B; /* fallback for old browsers */
+  background: linear-gradient(to right, #3F5EFB, #FC466B);
 }
 
-#loginPage {
-  background: linear-gradient(to right, rgba(0, 255, 255, 0.5), rgba(0, 8, 255, 0.7));
-  min-width: 35vw;
-  min-height: 45vh;
-  position: relative;
-  padding: 1rem 2rem;
+#LoginPage {
+  min-height: 70vh;
+  min-width: 70vw;
+  background: #351242;
+  overflow: hidden;
+  box-shadow: 13px 12px 11px 8px rgba(0, 0, 0, 0.13);
 }
-#loginPage form {
-  width: 100%;
+#LoginPage #parent {
+  min-height: 70vh;
+  min-width: 70vw;
 }
-#loginPage form .contFormElem {
-  min-width: 100%;
+#LoginPage #parent #GlassCont {
+  min-height: 100%;
+  background-image: url("./img/uiLogin.png");
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
-#loginPage form .contFormElem #submitBtn {
-  margin: 1rem 0px;
-  padding: 10px 0px;
+#LoginPage #parent #GlassCont #GlassMorph {
+  min-width: 65%;
+  min-height: 80%;
+  -webkit-backdrop-filter: blur(1rem);
+  -moz-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.21), rgba(255, 255, 255, 0.61));
+  border-radius: 60px 0px 0px 60px;
+  font-size: 20px;
 }
-#loginPage form .contFormElem #OtherLoginMethods {
-  width: 90%;
+#LoginPage #parent #GlassCont #GlassMorph div span i {
+  font-size: 16px;
+  margin-left: -9px;
 }
-#loginPage form .contFormElem #OtherLoginMethods div {
+#LoginPage #FormCont {
+  background: white;
+  border-radius: 50px 0px 0px 50px;
+}
+#LoginPage #FormCont #borderCont {
+  height: 94%;
+  width: 94%;
+  border: 2px solid rgb(170, 170, 170);
+  border-radius: 40px 0px 0px 40px;
+}
+#LoginPage #FormCont #borderCont #LoginHeading, #LoginPage #FormCont #borderCont #Form {
+  width: 80%;
+}
+#LoginPage #FormCont #borderCont #LoginHeading input[type=text], #LoginPage #FormCont #borderCont #LoginHeading input[type=password], #LoginPage #FormCont #borderCont #Form input[type=text], #LoginPage #FormCont #borderCont #Form input[type=password] {
+  background-color: #272727;
+  color: white;
+  padding: 0.8rem 0px;
+  border-radius: 5px;
+}
+#LoginPage #FormCont #borderCont #LoginHeading input[type=submit], #LoginPage #FormCont #borderCont #Form input[type=submit] {
+  width: 30%;
+  background-color: #272727;
+  padding: 0.8rem 0px;
+  color: white;
+  border-radius: 50px 5px 5px 50px;
+}
+#LoginPage #FormCont #borderCont #otherLogin {
+  width: 80%;
+}
+#LoginPage #FormCont #borderCont #otherLogin div {
+  width: 30%;
+  color: #272727;
+}
+#LoginPage #FormCont #borderCont #otherLogin div div {
   width: 50%;
 }
-#loginPage form label, #loginPage form input {
-  width: 90%;
+#LoginPage #FormCont #borderCont #otherLogin div div i {
+  background: #272727;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
