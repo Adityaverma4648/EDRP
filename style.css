@@ -44,8 +44,8 @@ body {
   font-size: 20px;
 }
 #LoginPage #parent #GlassCont #GlassMorph div span i {
-  font-size: 16px;
-  margin-left: -9px;
+  font-size: 10px;
+  margin-left: -6px;
 }
 #LoginPage #FormCont {
   background: white;
@@ -63,13 +63,13 @@ body {
 #LoginPage #FormCont #borderCont #LoginHeading input[type=text], #LoginPage #FormCont #borderCont #LoginHeading input[type=password], #LoginPage #FormCont #borderCont #Form input[type=text], #LoginPage #FormCont #borderCont #Form input[type=password] {
   background-color: #272727;
   color: white;
-  padding: 0.8rem 0px;
+  padding: 0.6rem 0px;
   border-radius: 5px;
 }
 #LoginPage #FormCont #borderCont #LoginHeading input[type=submit], #LoginPage #FormCont #borderCont #Form input[type=submit] {
   width: 30%;
   background-color: #272727;
-  padding: 0.8rem 0px;
+  padding: 0.6rem 0px;
   color: white;
   border-radius: 50px 5px 5px 50px;
 }
@@ -85,8 +85,8 @@ body {
 }
 #LoginPage #FormCont #borderCont #otherLogin div div i {
   background: #272727;
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,3 +1,31 @@
+<?php
+      session_start();
+                        include 'conn.php';
+                               if($_SERVER["REQUEST_METHOD"] == "POST") {
+                                // username and password sent from form 
+                                
+                                $userid = $_POST['userid'];
+                                $password = mysqli_real_escape_string($conn,$_POST['password']); 
+                                
+                                $sql = "SELECT id FROM student WHERE userid = '$userid' and password = '$password'";
+                                $result = mysqli_query($conn,$sql);
+                                $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+                              //   $active = $row['active'];
+                                
+                                $count = mysqli_num_rows($result);
+                                
+                                // If result matched $myusername and $mypassword, table row must be 1 row
+                                  
+                                if($count == 1) {
+                                  //  session_register("myusername");
+                                   $_SESSION['login_user'] = $userid;
+                                   header("Location: ./welcome.php");
+                                }else {
+                                   $error = "Your Login Name or Password is invalid";
+                                }
+                            }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,9 +117,10 @@
                      <span class="h4 my-2" id="LoginHeading">
                         LOGIN
                      </span>
-                     <form action="#" class="was-validated" id="Form">
+                     
+                     <form method="post" action="" class="was-validated" id="Form">
                          <div class="d-flex flex-column my-4">
-                            <input type="text" placeholder="Enter UserID" name="userID" class="px-1">
+                            <input type="text" placeholder="Enter UserID" name="userid" class="px-1">
                             <div class="valid-feedback">Valid.</div>
                              <div class="invalid-feedback">Please fill out this field.</div>
                          </div>
@@ -105,6 +134,7 @@
                             <input type="submit" name="submit" value="Login" class="px-1">
                          </div>
                         </form>
+
                          <div class="d-flex flex-column my-3 px-1" id="otherLogin">
                                 <span class="text-dark h5">
                                     Login Using Other Options
@@ -131,6 +161,7 @@
                         
                          </div>
                      <!-- </form> -->
+
             </div>
                
         </div>
