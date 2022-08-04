@@ -22,6 +22,7 @@
                                    header("Location: ./welcome.php");
                                 }else {
                                    $error = "Your Login Name or Password is invalid";
+                                   echo($error);
                                 }
                             }
 
