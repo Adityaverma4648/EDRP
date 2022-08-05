@@ -101,3 +101,21 @@ body{
          }
     }
 }
+
+
+#dashboard{
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #FC466B;  /* fallback for old browsers */
+  background: linear-gradient(to right, #3F5EFB, #FC466B);
+   #nav-elem{
+    min-height: 100vh;
+   }
+   #mainBody{
+     min-width: 100%;
+     min-height: 100%;
+
+   }
+
+}
+

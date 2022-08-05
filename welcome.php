@@ -31,6 +31,25 @@
 
 </head>
 <body>
-   
+      
+   <section class="row" id="dashboard">
+       <div class="col-sm-1 bg-warning" id="nav-elem">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci provident facilis expedita?
+       </div>
+       <div class="col-sm-10 bg-danger" id="mainBody">
+          <div class="row">
+              <div class="col-sm-12"></div>
+              <div class="col-sm-12">
+                  <div class="row">
+                      <div class="col-sm-4"></div>
+                      <div class="col-sm-8"></div>
+                  </div>
+              </div>
+
+          </div>
+       </div>
+       <div class="col-sm-1"></div>
+
+   </section>
 </body>
 </html>
