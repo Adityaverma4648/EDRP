@@ -102,20 +102,20 @@ body{
     }
 }
 
-
 #dashboard{
-  min-height: 100vh;
-  min-width: 100vw;
-  background: #FC466B;  /* fallback for old browsers */
-  background: linear-gradient(to right, #3F5EFB, #FC466B);
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
    #nav-elem{
     min-height: 100vh;
+    background-color: #351242;
    }
    #mainBody{
      min-width: 100%;
      min-height: 100%;
-
    }
-
-}
+   #activity{
+    background-color: #351242;
+   }
 

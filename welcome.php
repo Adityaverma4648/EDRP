@@ -33,7 +33,7 @@
 <body>
       
    <section class="row" id="dashboard">
-       <div class="col-sm-1 bg-warning" id="nav-elem">
+       <div class="col-sm-1 text-white" id="nav-elem">
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci provident facilis expedita?
        </div>
        <div class="col-sm-10 bg-danger" id="mainBody">
@@ -48,7 +48,9 @@
 
           </div>
        </div>
-       <div class="col-sm-1"></div>
+       <div class="col-sm-1" id="activity">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nostrum distinctio. Deleniti saepe ex quo quisquam et. Voluptate laboriosam et quidem recusandae alias, error sit quibusdam eaque illo. Quae hic, quia sunt libero omnis minus dolor in assumenda qui explicabo nostrum eligendi ipsam ab obcaecati perferendis molestiae accusantium cupiditate dolorem, quod mollitia vitae. Architecto, voluptatem pariatur.
+       </div>
 
    </section>
 </body>

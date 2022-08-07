@@ -91,4 +91,23 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+
+#dashboard {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+#nav-elem {
+  min-height: 100vh;
+  background-color: #351242;
+}
+
+#mainBody {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#activity {
+  background-color: #351242;
 }/*# sourceMappingURL=style.css.map */
