@@ -31,24 +31,153 @@
 
 <?php
       include "conn.php";
-    //   include "session.php";
+      include "session.php";
 ?>
 </head>
 <body>
     <section id="ContainerDashboard" class="row">
+
+    <!-- navimcons -->
           <div class="col-sm-1" id="navIcons">
-            <ul>
-              <li class="d-flex flex-column">
+            <ul class="d-flex flex-column align-items -center justify-space-evenly">
+              <li class="d-flex flex-column align-items-center justify-content-center py-4" id="profile">
                      <a href="#" class="text-decoration-none">
                           <img src="#" alt="profile">
                      </a>
                      <span class="text-white">
-                     username
+                     <!-- username -->
+                     <?php echo $login_session; ?>
                      </span>
                      <span class="text-white">
                          userid
                      </span>
               </li>
+              <li class="py-4 elem">
+                     <a href="#" class="d-flex flex-column text-decoration-none">
+                          <i class="fa fa-home"></i>
+                          <span>
+                             Home
+                          </span>
+                     </a>
+              </li>
+              <li class="py-4 elem">
+                     <a href="#" class="d-flex flex-column text-decoration-none">
+                          <i class="fa fa-user-check"></i>
+                          <span>
+                             Attendance
+                          </span>
+                     </a>
+              </li>
+              <li class="py-4 elem">
+                     <a href="#" class="d-flex flex-column text-decoration-none">
+                          <i class="fa fa-money"></i>
+                          <span>
+                             Fees
+                          </span>
+                     </a>
+              </li>
+              <li class="py-4 elem">
+                     <a href="#" class="d-flex flex-column text-decoration-none">
+                          <i class="fa fa-group"></i>
+                          <span>
+                             Faculty
+                          </span>
+                     </a>
+              </li>
+              <li class="py-4 elem">
+                     <a href="#" class="d-flex flex-column text-decoration-none">
+                          <i class="fa fa-envelope"></i>
+                          <span>
+                             Feedback
+                          </span>
+                     </a>
+              </li>
+              <li class="py-4 elem">
+                     <a href="#" class="d-flex flex-column text-decoration-none">
+                          <i class="far fa-calendar"></i>
+                          <span >
+                             calendar
+                          </span>
+                     </a>
+              </li>
+              <li class="py-4 elem">
+                     <a href="logout.php" class="d-flex flex-column text-decoration-none">
+                          <i class="fa fa-gear"></i>
+                          <span>
+                             Settings
+                          </span>
+                     </a>
+              </li>
+              <li class="py-4 elem">
+                     <a href="logout.php" class="d-flex flex-column text-decoration-none">
+                          <i class="fa fa-sign-out"></i>
+                          <span>
+                             Logout
+                          </span>
+                     </a>
+              </li>
+              
+              
+            </ul>
+          </div>
+
+
+          <!-- main body  -->
+          <div class="col-sm-10 px-1 d-flex align-items-center justify-content-center" id="mainBody">
+
+          <div class="cont row">
+                  <div class="col-sm-12 my-2 px-0" id="mainHeaderCont">
+                     1
+                  </div>
+                  <div class="col-sm-12" id="performance">
+                     <div class="row">
+                          <div class="col-sm-3" id="vertical">
+                               <div id="vertCont"></div>
+                          </div>
+                          <div class="col-sm-9" id="horizontal">
+                              <div class="row">
+                                    <div class="col-sm-12 my-1">3</div>
+                                    <div class="col-sm-12 my-1">4</div>
+                              </div>
+                          </div>
+                     </div>
+                  </div>
+          </div>
+
+          </div>
+
+          <!-- activity log -->
+          <div class="col-sm-1" id="activityLog">
+            <ul class="d-flex flex-column align-items -center justify-space-evenly">
+              <li class="d-flex flex-column align-items-center justify-content-center py-4" id="profile">
+                    
+              </li>
+              <li class="py-4 elem">
+                     
+              </li>
+              <li class="py-4 elem">
+                    
+              </li>
+              <li class="py-4 elem">
+                     
+              </li>
+              <li class="py-4 elem">
+                    
+              </li>
+              <li class="py-4 elem">
+                     
+              </li>
+              <li class="py-4 elem">
+                    
+              </li>
+              <li class="py-4 elem">
+                     
+              </li>
+              <li class="py-4 elem">
+                     
+              </li>
+              
+              
             </ul>
           </div>
     </section>
