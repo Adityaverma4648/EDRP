@@ -91,12 +91,4 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-}
-
-.parent {
-  max-height: 100vh;
-  max-width: 100vw;
-}
-.parent #nav-icons {
-  background-color: #272727;
 }/*# sourceMappingURL=style.css.map */
