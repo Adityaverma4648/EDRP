@@ -96,4 +96,8 @@ body {
   min-height: 100vh;
   padding: 0px;
   background-color: #351242;
+}
+#ContainerDashboard #activityLog ul li {
+  background-color: #fff;
+  list-style: none;
 }/*# sourceMappingURL=dashboard.css.map */

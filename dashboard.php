@@ -49,7 +49,12 @@
                      <?php echo $login_session; ?>
                      </span>
                      <span class="text-white">
-                         userid
+                          <?php
+                              $loggedInId; 
+                              if($loggedInId == $login_session){
+                                    $UserName = $name;
+                              }
+                          ?>
                      </span>
               </li>
               <li class="py-4 elem">
@@ -148,33 +153,34 @@
 
           <!-- activity log -->
           <div class="col-sm-1" id="activityLog">
-            <ul class="d-flex flex-column align-items -center justify-space-evenly">
-              <li class="d-flex flex-column align-items-center justify-content-center py-4" id="profile">
-                    
+            <ul class="d-flex flex-column align-items-center justify-space-evenly">
+              <li class="text-white">
+                    Activity log
+              </li>
+              <!-- </li> -->
+              <li class="py-4 elem">
+                     2
               </li>
               <li class="py-4 elem">
-                     
+                    3
               </li>
               <li class="py-4 elem">
-                    
+                     4
               </li>
               <li class="py-4 elem">
-                     
+                    5
               </li>
               <li class="py-4 elem">
-                    
+                     6
               </li>
               <li class="py-4 elem">
-                     
+                    7
               </li>
               <li class="py-4 elem">
-                    
+                     8
               </li>
               <li class="py-4 elem">
-                     
-              </li>
-              <li class="py-4 elem">
-                     
+                   9  
               </li>
               
               
