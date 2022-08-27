@@ -49,12 +49,18 @@
                      <?php echo $login_session; ?>
                      </span>
                      <span class="text-white">
-                          <?php
-                              $loggedInId; 
-                              if($loggedInId == $login_session){
-                                    $UserName = $name;
+                    <?php
+                         $sql =  "SELECT name,email FROM student WHERE userid = '$login_session' ";
+                         $result = $conn->query($sql);
+                         if ($result->num_rows > 0) {
+                              // output data of each row
+                              while($row = $result->fetch_assoc()) {
+                                echo  $row["name"] ;
                               }
-                          ?>
+                         }
+
+
+                    ?>
                      </span>
               </li>
               <li class="py-4 elem">
@@ -66,7 +72,7 @@
                      </a>
               </li>
               <li class="py-4 elem">
-                     <a href="#" class="d-flex flex-column text-decoration-none">
+                     <a href="attendance.php" class="d-flex flex-column text-decoration-none">
                           <i class="fa fa-user-check"></i>
                           <span>
                              Attendance
@@ -154,35 +160,7 @@
           <!-- activity log -->
           <div class="col-sm-1" id="activityLog">
             <ul class="d-flex flex-column align-items-center justify-space-evenly">
-              <li class="text-white">
-                    Activity log
-              </li>
-              <!-- </li> -->
-              <li class="py-4 elem">
-                     2
-              </li>
-              <li class="py-4 elem">
-                    3
-              </li>
-              <li class="py-4 elem">
-                     4
-              </li>
-              <li class="py-4 elem">
-                    5
-              </li>
-              <li class="py-4 elem">
-                     6
-              </li>
-              <li class="py-4 elem">
-                    7
-              </li>
-              <li class="py-4 elem">
-                     8
-              </li>
-              <li class="py-4 elem">
-                   9  
-              </li>
-              
+                
               
             </ul>
           </div>
