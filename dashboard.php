@@ -143,11 +143,18 @@
                   <div class="col-sm-12" id="performance">
                      <div class="row">
                           <div class="col-sm-3" id="vertical">
-                               <div id="vertCont"></div>
+                               <div id="vertCont">
+                               <div class="text-center text-white h5">
+                                               Performance 
+                                         </div>
+                                        
+                               </div>
                           </div>
                           <div class="col-sm-9" id="horizontal">
                               <div class="row">
-                                    <div class="col-sm-12 my-1">3</div>
+                                    <div class="col-sm-12 my-1">
+                                         3
+                                    </div>
                                     <div class="col-sm-12 my-1">4</div>
                               </div>
                           </div>
@@ -166,5 +173,6 @@
           </div>
     </section>
     
+    <script src="chart.js"></script>
 </body>
 </html>
