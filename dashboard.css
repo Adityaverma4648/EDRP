@@ -61,9 +61,10 @@ body {
 }
 #ContainerDashboard #mainBody .cont {
   min-height: 95%;
-  min-width: 95%;
+  width: 95%;
 }
 #ContainerDashboard #mainBody .cont #mainHeaderCont {
+  width: 60vw;
   min-height: 30vh;
   border-radius: 9px;
   background-color: #351242;
@@ -85,7 +86,7 @@ body {
 }
 #ContainerDashboard #mainBody .cont #performance .row #horizontal .row div {
   background-color: #351242;
-  min-height: 32vh;
+  max-height: 32vh;
   border-radius: 9px;
 }
 #ContainerDashboard #activityLog {
@@ -96,7 +97,4 @@ body {
   min-height: 100vh;
   padding: 0px;
   background-color: #351242;
-}
-#ContainerDashboard #activityLog ul li {
-  list-style: none;
 }/*# sourceMappingURL=dashboard.css.map */
