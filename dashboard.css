@@ -5,96 +5,71 @@
   font-family: "Roboto", sans-serif;
   font-family: "Poppins", sans-serif;
 }
+/* Color Theme Swatches in Hex */
+.Thirty-Days-of-The-Waiting-Blues-1-hex {
+  color: #022873;
+}
 
+.Thirty-Days-of-The-Waiting-Blues-2-hex {
+  color: #056CF2;
+}
+
+.Thirty-Days-of-The-Waiting-Blues-3-hex {
+  color: #0597F2;
+}
+
+.Thirty-Days-of-The-Waiting-Blues-4-hex {
+  color: #05C7F2;
+}
+
+.Thirty-Days-of-The-Waiting-Blues-5-hex {
+  color: #05F2F2;
+}
+
+/* Color Theme Swatches in RGBA */
+.Thirty-Days-of-The-Waiting-Blues-1-rgba {
+  color: rgba(2, 39, 114, 1);
+}
+
+.Thirty-Days-of-The-Waiting-Blues-2-rgba {
+  color: rgba(4, 107, 242, 1);
+}
+
+.Thirty-Days-of-The-Waiting-Blues-3-rgba {
+  color: rgba(4, 151, 242, 1);
+}
+
+.Thirty-Days-of-The-Waiting-Blues-4-rgba {
+  color: rgba(4, 198, 242, 1);
+}
+
+.Thirty-Days-of-The-Waiting-Blues-5-rgba {
+  color: rgba(4, 242, 242, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.Thirty-Days-of-The-Waiting-Blues-1-hsla {
+  color: hsla(219, 96, 22, 1);
+}
+
+.Thirty-Days-of-The-Waiting-Blues-2-hsla {
+  color: hsla(213, 96, 48, 1);
+}
+
+.Thirty-Days-of-The-Waiting-Blues-3-hsla {
+  color: hsla(202, 96, 48, 1);
+}
+
+.Thirty-Days-of-The-Waiting-Blues-4-hsla {
+  color: hsla(191, 96, 48, 1);
+}
+
+.Thirty-Days-of-The-Waiting-Blues-5-hsla {
+  color: hsla(180, 96, 48, 1);
+}
+/* Color Theme Swatches in Hex */
 body {
   min-height: 100vh;
   min-width: 100vw;
-  background: #FC466B; /* fallback for old browsers */
-  background: linear-gradient(to right, #3F5EFB, #FC466B);
-}
-
-#ContainerDashboard {
-  max-height: 100vh;
-  max-width: 100vw;
-}
-#ContainerDashboard #navIcons {
-  min-height: 100vh;
-  padding: 0px;
-  background-color: #351242;
-}
-#ContainerDashboard #navIcons ul {
-  list-style: none;
-}
-#ContainerDashboard #navIcons ul a {
-  text-decoration: none;
-}
-#ContainerDashboard #navIcons #profile img {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 15px;
-  text-align: center;
-}
-#ContainerDashboard #navIcons .elem {
-  min-width: 100%;
-  transition: all 0.25s ease-in-out;
-}
-#ContainerDashboard #navIcons .elem a {
-  color: #fff;
-  min-width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#ContainerDashboard #navIcons .elem a i {
-  font-size: 22px;
-}
-#ContainerDashboard #navIcons .elem:hover {
-  transition: all 0.6s ease-in-out;
-  background-color: aliceblue;
-  border-radius: 50px 0px 0px 50px;
-}
-#ContainerDashboard #navIcons .elem:hover a {
-  color: #000;
-}
-#ContainerDashboard #mainBody {
-  min-height: 100vh;
-}
-#ContainerDashboard #mainBody .cont {
-  min-height: 95%;
-  width: 95%;
-}
-#ContainerDashboard #mainBody .cont #mainHeaderCont {
-  width: 60vw;
-  min-height: 30vh;
-  border-radius: 9px;
-  background-color: #351242;
-}
-#ContainerDashboard #mainBody .cont #performance {
-  min-height: 65vh;
-}
-#ContainerDashboard #mainBody .cont #performance .row #vertical {
-  min-height: 65vh;
-}
-#ContainerDashboard #mainBody .cont #performance .row #vertical #vertCont {
-  height: 100%;
-  width: 99%;
-  border-radius: 9px;
-  background-color: #351242;
-}
-#ContainerDashboard #mainBody .cont #performance .row #horizontal {
-  min-height: 65vh;
-}
-#ContainerDashboard #mainBody .cont #performance .row #horizontal .row div {
-  background-color: #351242;
-  max-height: 32vh;
-  border-radius: 9px;
-}
-#ContainerDashboard #activityLog {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  min-height: 100vh;
-  padding: 0px;
-  background-color: #351242;
+  background-color: #022873;
 }/*# sourceMappingURL=dashboard.css.map */
