@@ -9,7 +9,12 @@
 body {
   min-height: 100vh;
   min-width: 100vw;
-  background: #FC466B; /* fallback for old browsers */
+
+  
+}
+
+.myLoginPageBg{
+  background: #FC466B;
   background: linear-gradient(to right, #3F5EFB, #FC466B);
 }
 
