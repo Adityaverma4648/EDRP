@@ -6,6 +6,7 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Dashboard</title>
+
      <!-- bootstrap cdn  -->
      <!-- Latest compiled and minified CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,13 +25,14 @@
      <script src="https://kit.fontawesome.com/8dc03a4776.js" crossorigin="anonymous"></script>
      <!-- ends here -->
 
-     <!-- styles ------------------------------------------------------->
-     <link rel="stylesheet" href="style.css">
+
 
      <?php
      include "conn.php";
      include "session.php";
      ?>
+     <!-- styles ------------------------------------------------------->
+     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
